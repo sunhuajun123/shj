@@ -3,7 +3,7 @@
 #include "ws2812_drv.h"
 #include "main.h"
 
-#define RGB_LED_NUM 1
+#define RGB_LED_NUM 30
 
 #define  FRONT_RGB_LED_NUM	(10ul)
 #define RGB_MAX_ELEMENT_NUM     40
@@ -73,5 +73,5 @@ typedef struct
 extern RGB_Controller Front_RGB;
 extern void bsp_ws2812_init(void);
 extern void task_rgb_ch(RGB_Controller* rgb_ptr);
-
+extern void Task_RGBTest(void);
 #endif

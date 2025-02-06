@@ -1,45 +1,46 @@
 ###############################################################################
 #
-# IAR ELF Linker V7.40.2.8542/W32 for ARM                 14/Aug/2024  21:29:04
+# IAR ELF Linker V7.40.2.8542/W32 for ARM                 06/Feb/2025  09:30:01
 # Copyright 2007-2015 IAR Systems AB.
 #
 #    Output file  =  
-#        E:\stm32f030f4p6开发\code\STM32F0xx_StdPeriph_Lib_V1.6.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030\Exe\Project.out
+#        E:\stm32f030f4p6\Git\stm32f030f4p6\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030\Exe\Project.out
 #    Map file     =  
-#        E:\stm32f030f4p6开发\code\STM32F0xx_StdPeriph_Lib_V1.6.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030\List\Project.map
+#        E:\stm32f030f4p6\Git\stm32f030f4p6\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030\List\Project.map
 #    Command line =  
-#        E:\stm32f030f4p6开发\code\STM32F0xx_StdPeriph_Lib_V1.6.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030\Obj\key.o
-#        E:\stm32f030f4p6开发\code\STM32F0xx_StdPeriph_Lib_V1.6.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030\Obj\led.o
-#        E:\stm32f030f4p6开发\code\STM32F0xx_StdPeriph_Lib_V1.6.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030\Obj\main.o
-#        E:\stm32f030f4p6开发\code\STM32F0xx_StdPeriph_Lib_V1.6.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030\Obj\startup_stm32f030.o
-#        E:\stm32f030f4p6开发\code\STM32F0xx_StdPeriph_Lib_V1.6.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030\Obj\stm32f0xx_adc.o
-#        E:\stm32f030f4p6开发\code\STM32F0xx_StdPeriph_Lib_V1.6.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030\Obj\stm32f0xx_crc.o
-#        E:\stm32f030f4p6开发\code\STM32F0xx_StdPeriph_Lib_V1.6.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030\Obj\stm32f0xx_dbgmcu.o
-#        E:\stm32f030f4p6开发\code\STM32F0xx_StdPeriph_Lib_V1.6.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030\Obj\stm32f0xx_dma.o
-#        E:\stm32f030f4p6开发\code\STM32F0xx_StdPeriph_Lib_V1.6.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030\Obj\stm32f0xx_exti.o
-#        E:\stm32f030f4p6开发\code\STM32F0xx_StdPeriph_Lib_V1.6.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030\Obj\stm32f0xx_flash.o
-#        E:\stm32f030f4p6开发\code\STM32F0xx_StdPeriph_Lib_V1.6.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030\Obj\stm32f0xx_gpio.o
-#        E:\stm32f030f4p6开发\code\STM32F0xx_StdPeriph_Lib_V1.6.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030\Obj\stm32f0xx_i2c.o
-#        E:\stm32f030f4p6开发\code\STM32F0xx_StdPeriph_Lib_V1.6.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030\Obj\stm32f0xx_it.o
-#        E:\stm32f030f4p6开发\code\STM32F0xx_StdPeriph_Lib_V1.6.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030\Obj\stm32f0xx_iwdg.o
-#        E:\stm32f030f4p6开发\code\STM32F0xx_StdPeriph_Lib_V1.6.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030\Obj\stm32f0xx_misc.o
-#        E:\stm32f030f4p6开发\code\STM32F0xx_StdPeriph_Lib_V1.6.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030\Obj\stm32f0xx_pwr.o
-#        E:\stm32f030f4p6开发\code\STM32F0xx_StdPeriph_Lib_V1.6.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030\Obj\stm32f0xx_rcc.o
-#        E:\stm32f030f4p6开发\code\STM32F0xx_StdPeriph_Lib_V1.6.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030\Obj\stm32f0xx_rtc.o
-#        E:\stm32f030f4p6开发\code\STM32F0xx_StdPeriph_Lib_V1.6.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030\Obj\stm32f0xx_spi.o
-#        E:\stm32f030f4p6开发\code\STM32F0xx_StdPeriph_Lib_V1.6.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030\Obj\stm32f0xx_syscfg.o
-#        E:\stm32f030f4p6开发\code\STM32F0xx_StdPeriph_Lib_V1.6.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030\Obj\stm32f0xx_tim.o
-#        E:\stm32f030f4p6开发\code\STM32F0xx_StdPeriph_Lib_V1.6.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030\Obj\stm32f0xx_usart.o
-#        E:\stm32f030f4p6开发\code\STM32F0xx_StdPeriph_Lib_V1.6.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030\Obj\stm32f0xx_wwdg.o
-#        E:\stm32f030f4p6开发\code\STM32F0xx_StdPeriph_Lib_V1.6.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030\Obj\system_stm32f0xx.o
-#        E:\stm32f030f4p6开发\code\STM32F0xx_StdPeriph_Lib_V1.6.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030\Obj\ws2812_app.o
-#        E:\stm32f030f4p6开发\code\STM32F0xx_StdPeriph_Lib_V1.6.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030\Obj\ws2812_drv.o
+#        E:\stm32f030f4p6\Git\stm32f030f4p6\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030\Obj\key.o
+#        E:\stm32f030f4p6\Git\stm32f030f4p6\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030\Obj\led.o
+#        E:\stm32f030f4p6\Git\stm32f030f4p6\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030\Obj\main.o
+#        E:\stm32f030f4p6\Git\stm32f030f4p6\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030\Obj\startup_stm32f030.o
+#        E:\stm32f030f4p6\Git\stm32f030f4p6\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030\Obj\stm32f0xx_adc.o
+#        E:\stm32f030f4p6\Git\stm32f030f4p6\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030\Obj\stm32f0xx_crc.o
+#        E:\stm32f030f4p6\Git\stm32f030f4p6\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030\Obj\stm32f0xx_dbgmcu.o
+#        E:\stm32f030f4p6\Git\stm32f030f4p6\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030\Obj\stm32f0xx_dma.o
+#        E:\stm32f030f4p6\Git\stm32f030f4p6\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030\Obj\stm32f0xx_exti.o
+#        E:\stm32f030f4p6\Git\stm32f030f4p6\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030\Obj\stm32f0xx_flash.o
+#        E:\stm32f030f4p6\Git\stm32f030f4p6\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030\Obj\stm32f0xx_gpio.o
+#        E:\stm32f030f4p6\Git\stm32f030f4p6\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030\Obj\stm32f0xx_i2c.o
+#        E:\stm32f030f4p6\Git\stm32f030f4p6\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030\Obj\stm32f0xx_it.o
+#        E:\stm32f030f4p6\Git\stm32f030f4p6\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030\Obj\stm32f0xx_iwdg.o
+#        E:\stm32f030f4p6\Git\stm32f030f4p6\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030\Obj\stm32f0xx_misc.o
+#        E:\stm32f030f4p6\Git\stm32f030f4p6\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030\Obj\stm32f0xx_pwr.o
+#        E:\stm32f030f4p6\Git\stm32f030f4p6\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030\Obj\stm32f0xx_rcc.o
+#        E:\stm32f030f4p6\Git\stm32f030f4p6\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030\Obj\stm32f0xx_rtc.o
+#        E:\stm32f030f4p6\Git\stm32f030f4p6\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030\Obj\stm32f0xx_spi.o
+#        E:\stm32f030f4p6\Git\stm32f030f4p6\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030\Obj\stm32f0xx_syscfg.o
+#        E:\stm32f030f4p6\Git\stm32f030f4p6\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030\Obj\stm32f0xx_tim.o
+#        E:\stm32f030f4p6\Git\stm32f030f4p6\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030\Obj\stm32f0xx_usart.o
+#        E:\stm32f030f4p6\Git\stm32f030f4p6\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030\Obj\stm32f0xx_wwdg.o
+#        E:\stm32f030f4p6\Git\stm32f030f4p6\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030\Obj\system_stm32f0xx.o
+#        E:\stm32f030f4p6\Git\stm32f030f4p6\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030\Obj\uart.o
+#        E:\stm32f030f4p6\Git\stm32f030f4p6\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030\Obj\ws2812_app.o
+#        E:\stm32f030f4p6\Git\stm32f030f4p6\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030\Obj\ws2812_drv.o
 #        --redirect _Printf=_PrintfSmall --redirect _Scanf=_ScanfSmall -o
-#        E:\stm32f030f4p6开发\code\STM32F0xx_StdPeriph_Lib_V1.6.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030\Exe\Project.out
+#        E:\stm32f030f4p6\Git\stm32f030f4p6\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030\Exe\Project.out
 #        --map
-#        E:\stm32f030f4p6开发\code\STM32F0xx_StdPeriph_Lib_V1.6.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030\List\Project.map
+#        E:\stm32f030f4p6\Git\stm32f030f4p6\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030\List\Project.map
 #        --config
-#        E:\stm32f030f4p6开发\code\STM32F0xx_StdPeriph_Lib_V1.6.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\stm32f030_flash.icf
+#        E:\stm32f030f4p6\Git\stm32f030f4p6\Projects\STM32F0xx_StdPeriph_Templates\EWARM\stm32f030_flash.icf
 #        --semihosting --entry __iar_program_start --vfe
 #
 ###############################################################################
@@ -66,98 +67,84 @@ __SystemLibrary = DLib
   .intvec            ro code  0x08000000    0xb4  startup_stm32f030.o [1]
                             - 0x080000b4    0xb4
 
-"P1":                                     0x3e43
-  .text              ro code  0x080000b4   0xd08  ws2812_app.o [1]
-  .text              ro code  0x08000dbc    0x5c  ABImemcpy.o [5]
-  .text              ro code  0x08000e18    0xe0  I32DivModFast.o [5]
-  .text              ro code  0x08000ef8    0x36  I32ToFlt.o [4]
-  .text              ro code  0x08000f2e   0x120  FltAddSub.o [4]
-  .text              ro code  0x0800104e    0xb0  FltMul.o [4]
-  .text              ro code  0x080010fe    0xaa  FltDiv.o [4]
-  .text              ro code  0x080011a8    0x3a  FltToS32.o [4]
-  .text              ro code  0x080011e2    0x2a  zero_init3.o [5]
-  .text              ro code  0x0800120c    0x20  FltCmpEq.o [4]
-  .text              ro code  0x0800122c    0x32  FltToDbl.o [4]
-  .text              ro code  0x0800125e   0x184  DblMul.o [4]
-  .text              ro code  0x080013e2   0x1b4  DblAddSub.o [4]
-  .text              ro code  0x08001596    0x62  DblToFlt.o [4]
-  .text              ro code  0x080015f8   0x158  ws2812_drv.o [1]
-  .text              ro code  0x08001750   0x15c  main.o [1]
-  .text              ro code  0x080018ac     0x2  IntDivZer.o [5]
-  .text              ro code  0x080018ae     0x2  startup_stm32f030.o [1]
-  .text              ro code  0x080018b0   0x2b4  stm32f0xx_rcc.o [1]
-  .text              ro code  0x08001b64   0x126  stm32f0xx_gpio.o [1]
-  .text              ro code  0x08001c8a     0x2  startup_stm32f030.o [1]
-  .text              ro code  0x08001c8c   0x2c0  stm32f0xx_tim.o [1]
-  .text              ro code  0x08001f4c   0x1b8  stm32f0xx_dma.o [1]
-  .text              ro code  0x08002104    0x7c  led.o [1]
-  .text              ro code  0x08002180   0x150  key.o [1]
-  .rodata            const    0x080022d0   0x460  ws2812_app.o [1]
-  .rodata            const    0x08002730   0x444  ws2812_app.o [1]
-  .rodata            const    0x08002b74   0x348  ws2812_app.o [1]
-  .rodata            const    0x08002ebc   0x32c  ws2812_app.o [1]
-  .rodata            const    0x080031e8   0x230  ws2812_app.o [1]
-  .rodata            const    0x08003418   0x230  ws2812_app.o [1]
-  .rodata            const    0x08003648   0x16c  ws2812_app.o [1]
-  .text              ro code  0x080037b4   0x164  system_stm32f0xx.o [1]
-  .rodata            const    0x08003918   0x134  ws2812_app.o [1]
-  .rodata            const    0x08003a4c   0x118  ws2812_app.o [1]
-  .rodata            const    0x08003b64   0x118  ws2812_app.o [1]
-  .text              ro code  0x08003c7c    0xd8  packbits_init.o [5]
-  .text              ro code  0x08003d54     0xa  abort.o [3]
-  .text              ro code  0x08003d5e     0x2  startup_stm32f030.o [1]
-  .text              ro code  0x08003d60    0x14  exit.o [6]
-  .text              ro code  0x08003d74    0x3c  startup_stm32f030.o [1]
-  .text              ro code  0x08003db0    0x3c  stm32f0xx_it.o [1]
-  .text              ro code  0x08003dec    0x28  data_init.o [5]
-  .iar.init_table    const    0x08003e14    0x2c  - Linker created -
-  .text              ro code  0x08003e40    0x1a  cmain.o [5]
-  .text              ro code  0x08003e5a     0x4  low_level_init.o [3]
-  .text              ro code  0x08003e5e     0x8  exit.o [3]
-  .text              ro code  0x08003e66     0x2  startup_stm32f030.o [1]
-  .text              ro code  0x08003e68     0xa  cexit.o [5]
-  .text              ro code  0x08003e72     0xc  cstartup_M.o [5]
-  .text              ro code  0x08003e7e     0x2  startup_stm32f030.o [1]
-  .rodata            const    0x08003e80     0x4  ws2812_app.o [1]
-  .rodata            const    0x08003e84     0x4  ws2812_app.o [1]
-  .text              ro code  0x08003e88     0x2  startup_stm32f030.o [1]
-  .text              ro code  0x08003e8a     0x2  startup_stm32f030.o [1]
-  .text              ro code  0x08003e8c     0x2  startup_stm32f030.o [1]
-  .text              ro code  0x08003e8e     0x2  startup_stm32f030.o [1]
-  .text              ro code  0x08003e90     0x2  startup_stm32f030.o [1]
-  .text              ro code  0x08003e92     0x2  startup_stm32f030.o [1]
-  .text              ro code  0x08003e94     0x2  startup_stm32f030.o [1]
-  .text              ro code  0x08003e96     0x2  startup_stm32f030.o [1]
-  .text              ro code  0x08003e98     0x2  startup_stm32f030.o [1]
-  .text              ro code  0x08003e9a     0x2  startup_stm32f030.o [1]
-  .text              ro code  0x08003e9c     0x2  startup_stm32f030.o [1]
-  .text              ro code  0x08003e9e     0x2  startup_stm32f030.o [1]
-  .text              ro code  0x08003ea0     0x2  startup_stm32f030.o [1]
-  .text              ro code  0x08003ea2     0x2  startup_stm32f030.o [1]
-  .text              ro code  0x08003ea4     0x2  startup_stm32f030.o [1]
-  .text              ro code  0x08003ea6     0x2  startup_stm32f030.o [1]
-  .text              ro code  0x08003ea8     0x2  startup_stm32f030.o [1]
-  .text              ro code  0x08003eaa     0x2  startup_stm32f030.o [1]
-  .text              ro code  0x08003eac     0x2  startup_stm32f030.o [1]
-  .rodata            const    0x08003eae     0x0  zero_init3.o [5]
-  .rodata            const    0x08003eae     0x0  packbits_init.o [5]
-  Initializer bytes  const    0x08003eae    0x49  <for P2 s0>
-                            - 0x08003ef7  0x3e43
+"P1":                                     0x198c
+  .text              ro code  0x080000b4   0x304  uart.o [1]
+  .text              ro code  0x080003b8   0x2b4  stm32f0xx_rcc.o [1]
+  .text              ro code  0x0800066c   0x10c  stm32f0xx_gpio.o [1]
+  .text              ro code  0x08000778   0x1ce  stm32f0xx_usart.o [1]
+  .text              ro code  0x08000946    0x2a  zero_init3.o [5]
+  .text              ro code  0x08000970    0x74  stm32f0xx_misc.o [1]
+  .text              ro code  0x080009e4   0x1b8  stm32f0xx_dma.o [1]
+  .text              ro code  0x08000b9c    0x54  ABImemset.o [5]
+  .text              ro code  0x08000bf0    0xae  I32DivModFast.o [5]
+  .text              ro code  0x08000c9e     0x2  startup_stm32f030.o [1]
+  .text              ro code  0x08000ca0     0x2  IntDivZer.o [5]
+  .text              ro code  0x08000ca2     0x2  startup_stm32f030.o [1]
+  .text              ro code  0x08000ca4   0x2fc  ws2812_app.o [1]
+  .text              ro code  0x08000fa0   0x158  ws2812_drv.o [1]
+  .text              ro code  0x080010f8    0x5c  ABImemcpy.o [5]
+  .text              ro code  0x08001154   0x180  main.o [1]
+  .text              ro code  0x080012d4   0x2c0  stm32f0xx_tim.o [1]
+  .text              ro code  0x08001594    0x7c  led.o [1]
+  .text              ro code  0x08001610    0x3c  stm32f0xx_iwdg.o [1]
+  .text              ro code  0x0800164c   0x164  system_stm32f0xx.o [1]
+  .text              ro code  0x080017b0    0xd8  packbits_init.o [5]
+  .text              ro code  0x08001888     0xa  abort.o [3]
+  .text              ro code  0x08001892     0x2  startup_stm32f030.o [1]
+  .text              ro code  0x08001894    0x14  exit.o [6]
+  .text              ro code  0x080018a8    0x3c  startup_stm32f030.o [1]
+  .text              ro code  0x080018e4    0x3c  stm32f0xx_it.o [1]
+  .text              ro code  0x08001920    0x28  data_init.o [5]
+  .iar.init_table    const    0x08001948    0x2c  - Linker created -
+  .text              ro code  0x08001974    0x1a  cmain.o [5]
+  .text              ro code  0x0800198e     0x4  low_level_init.o [3]
+  .text              ro code  0x08001992     0x8  exit.o [3]
+  .text              ro code  0x0800199a     0x2  startup_stm32f030.o [1]
+  .text              ro code  0x0800199c     0xa  cexit.o [5]
+  .text              ro code  0x080019a6     0xc  cstartup_M.o [5]
+  .text              ro code  0x080019b2     0x2  startup_stm32f030.o [1]
+  .rodata            const    0x080019b4     0x4  ws2812_app.o [1]
+  .rodata            const    0x080019b8     0x4  ws2812_app.o [1]
+  .text              ro code  0x080019bc     0x2  startup_stm32f030.o [1]
+  .text              ro code  0x080019be     0x2  startup_stm32f030.o [1]
+  .text              ro code  0x080019c0     0x2  startup_stm32f030.o [1]
+  .text              ro code  0x080019c2     0x2  startup_stm32f030.o [1]
+  .text              ro code  0x080019c4     0x2  startup_stm32f030.o [1]
+  .text              ro code  0x080019c6     0x2  startup_stm32f030.o [1]
+  .text              ro code  0x080019c8     0x2  startup_stm32f030.o [1]
+  .text              ro code  0x080019ca     0x2  startup_stm32f030.o [1]
+  .text              ro code  0x080019cc     0x2  startup_stm32f030.o [1]
+  .text              ro code  0x080019ce     0x2  startup_stm32f030.o [1]
+  .text              ro code  0x080019d0     0x2  startup_stm32f030.o [1]
+  .text              ro code  0x080019d2     0x2  startup_stm32f030.o [1]
+  .text              ro code  0x080019d4     0x2  startup_stm32f030.o [1]
+  .text              ro code  0x080019d6     0x2  startup_stm32f030.o [1]
+  .text              ro code  0x080019d8     0x2  startup_stm32f030.o [1]
+  .text              ro code  0x080019da     0x2  startup_stm32f030.o [1]
+  .text              ro code  0x080019dc     0x2  startup_stm32f030.o [1]
+  .text              ro code  0x080019de     0x2  startup_stm32f030.o [1]
+  .rodata            const    0x080019e0     0x0  zero_init3.o [5]
+  .rodata            const    0x080019e0     0x0  packbits_init.o [5]
+  Initializer bytes  const    0x080019e0    0x60  <for P2 s0>
+                            - 0x08001a40  0x198c
 
-"P2":                                      0xc28
-  P2 s0                       0x20000000   0x5dc  <Init block>
+"P2":                                      0xf70
+  P2 s0                       0x20000000   0x5f4  <Init block>
     .data            inited   0x20000000   0x5c8  ws2812_app.o [1]
     .data            inited   0x200005c8    0x10  stm32f0xx_rcc.o [1]
-    .data            inited   0x200005d8     0x4  system_stm32f0xx.o [1]
-  .bss               zero     0x200005dc    0x28  main.o [1]
-  .bss               zero     0x20000604     0xc  key.o [1]
-  .bss               zero     0x20000610     0x8  stm32f0xx_it.o [1]
-  .bss               zero     0x20000618     0x4  main.o [1]
-  .bss               zero     0x2000061c     0x4  ws2812_app.o [1]
-  .bss               zero     0x20000620     0x1  led.o [1]
-  CSTACK                      0x20000628   0x600  <Block>
-    CSTACK           uninit   0x20000628   0x600  <Block tail>
-                            - 0x20000c28   0xc28
+    .data            inited   0x200005d8     0xc  uart.o [1]
+    .data            inited   0x200005e4     0xc  uart.o [1]
+    .data            inited   0x200005f0     0x4  system_stm32f0xx.o [1]
+  .bss               zero     0x200005f4   0x2d4  ws2812_app.o [1]
+  .bss               zero     0x200008c8    0x5c  ws2812_app.o [1]
+  .bss               zero     0x20000924    0x28  main.o [1]
+  .bss               zero     0x2000094c    0x14  uart.o [1]
+  .bss               zero     0x20000960     0x8  stm32f0xx_it.o [1]
+  .bss               zero     0x20000968     0x4  main.o [1]
+  .bss               zero     0x2000096c     0x1  led.o [1]
+  CSTACK                      0x20000970   0x600  <Block>
+    CSTACK           uninit   0x20000970   0x600  <Block tail>
+                            - 0x20000f70   0xf70
 
 
 *******************************************************************************
@@ -167,14 +154,14 @@ __SystemLibrary = DLib
           Address     Size
           -------     ----
 Zero (__iar_zero_init3)
-    1 destination range, total size 0x45:
-          0x200005dc   0x45
+    1 destination range, total size 0x379:
+          0x200005f4  0x379
 
 Copy/packbits (__iar_packbits_init3)
-    1 source range, total size 0x49 (4% of destination):
-          0x08003eae   0x49
-    1 destination range, total size 0x5dc:
-          0x20000000  0x5dc
+    1 source range, total size 0x60 (6% of destination):
+          0x080019e0   0x60
+    1 destination range, total size 0x5f4:
+          0x20000000  0x5f4
 
 
 
@@ -184,21 +171,24 @@ Copy/packbits (__iar_packbits_init3)
 
     Module               ro code  ro data  rw data
     ------               -------  -------  -------
-E:\stm32f030f4p6开发\code\STM32F0xx_StdPeriph_Lib_V1.6.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030\Obj: [1]
-    key.o                    336                12
+E:\stm32f030f4p6\Git\stm32f030f4p6\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030\Obj: [1]
     led.o                    124                 1
-    main.o                   348                44
-    startup_stm32f030.o      288
+    main.o                   384                44
+    startup_stm32f030.o      286
     stm32f0xx_dma.o          440
-    stm32f0xx_gpio.o         294
+    stm32f0xx_gpio.o         268
     stm32f0xx_it.o            60                 8
-    stm32f0xx_rcc.o          692                16
+    stm32f0xx_iwdg.o          60
+    stm32f0xx_misc.o         116
+    stm32f0xx_rcc.o          692        1       16
     stm32f0xx_tim.o          704
+    stm32f0xx_usart.o        462
     system_stm32f0xx.o       356        1        4
-    ws2812_app.o           3 336    6 296    1 484
+    uart.o                   772        1       44
+    ws2812_app.o             764      101    2 296
     ws2812_drv.o             344
     ----------------------------------------------
-    Total:                 7 322    6 297    1 569
+    Total:                 5 832      104    2 413
 
 command line: [2]
     ----------------------------------------------
@@ -212,22 +202,13 @@ dl6M_tln.a: [3]
     Total:                    22
 
 m6M_tl.a: [4]
-    DblAddSub.o              436
-    DblMul.o                 388
-    DblToFlt.o                98
-    FltAddSub.o              288
-    FltCmpEq.o                32
-    FltDiv.o                 170
-    FltMul.o                 176
-    FltToDbl.o                50
-    FltToS32.o                58
-    I32ToFlt.o                54
     ----------------------------------------------
-    Total:                 1 750
+    Total:
 
 rt6M_tl.a: [5]
     ABImemcpy.o               92
-    I32DivModFast.o          224
+    ABImemset.o               84
+    I32DivModFast.o          174
     IntDivZer.o                2
     cexit.o                   10
     cmain.o                   26
@@ -236,7 +217,7 @@ rt6M_tl.a: [5]
     packbits_init.o          216
     zero_init3.o              42
     ----------------------------------------------
-    Total:                   664
+    Total:                   698
 
 shb_l.a: [6]
     exit.o                    20
@@ -245,7 +226,7 @@ shb_l.a: [6]
 
     Linker created                     44    1 536
 --------------------------------------------------
-    Grand Total:           9 778    6 341    3 105
+    Grand Total:           6 572      148    3 949
 
 
 *******************************************************************************
@@ -254,151 +235,136 @@ shb_l.a: [6]
 
 Entry                      Address   Size  Type      Object
 -----                      -------   ----  ----      ------
-.iar.init_table$$Base   0x08003e14          --   Gb  - Linker created -
-.iar.init_table$$Limit  0x08003e40          --   Gb  - Linker created -
-?main                   0x08003e41         Code  Gb  cmain.o [5]
+.iar.init_table$$Base   0x08001948          --   Gb  - Linker created -
+.iar.init_table$$Limit  0x08001974          --   Gb  - Linker created -
+?main                   0x08001975         Code  Gb  cmain.o [5]
 APBAHBPrescTable        0x200005c8   0x10  Data  Lc  stm32f0xx_rcc.o [1]
-CSTACK$$Base            0x20000628          --   Gb  - Linker created -
-CSTACK$$Limit           0x20000c28          --   Gb  - Linker created -
-CheckKey                0x080021ab   0x1c  Code  Lc  key.o [1]
-DMA_Cmd                 0x080020a7   0x1c  Code  Gb  stm32f0xx_dma.o [1]
-DMA_DeInit              0x08001f4d  0x11a  Code  Gb  stm32f0xx_dma.o [1]
-DMA_Init                0x08002067   0x40  Code  Gb  stm32f0xx_dma.o [1]
-Disp_RGB_Tab1           0x2000061c    0x4  Data  Gb  ws2812_app.o [1]
+CSTACK$$Base            0x20000970          --   Gb  - Linker created -
+CSTACK$$Limit           0x20000f70          --   Gb  - Linker created -
+DMAChannel_Update       0x08000259   0x20  Code  Gb  uart.o [1]
+DMA_Cmd                 0x08000b3f   0x1c  Code  Gb  stm32f0xx_dma.o [1]
+DMA_DeInit              0x080009e5  0x11a  Code  Gb  stm32f0xx_dma.o [1]
+DMA_Init                0x08000aff   0x40  Code  Gb  stm32f0xx_dma.o [1]
+Disp_RGB_Tab1           0x200008c8   0x5c  Data  Gb  ws2812_app.o [1]
+Frame_Check             0x08000295   0x1c  Code  Gb  uart.o [1]
 Front_RGB               0x20000000  0x5c8  Data  Gb  ws2812_app.o [1]
-GPIO_Init               0x08001b65   0xa0  Code  Gb  stm32f0xx_gpio.o [1]
-GPIO_PinAFConfig        0x08001c29   0x62  Code  Gb  stm32f0xx_gpio.o [1]
-GPIO_ReadInputDataBit   0x08001c05   0x1a  Code  Gb  stm32f0xx_gpio.o [1]
-GPIO_ResetBits          0x08001c25    0x4  Code  Gb  stm32f0xx_gpio.o [1]
-GPIO_SetBits            0x08001c1f    0x6  Code  Gb  stm32f0xx_gpio.o [1]
-HardFault_Handler       0x08003db3    0x4  Code  Gb  stm32f0xx_it.o [1]
-HardwareInit_Key        0x080022a5    0x8  Code  Gb  key.o [1]
-HardwareInit_Led        0x0800215b    0x8  Code  Gb  led.o [1]
-InStream_Read           0x08003c7d   0x22  Code  Lc  packbits_init.o [5]
-KeyGpio_Init            0x08002181   0x2a  Code  Lc  key.o [1]
-KeyInfo_Process         0x0800226d   0x38  Code  Lc  key.o [1]
-KeyState_Check          0x0800221d   0x50  Code  Lc  key.o [1]
-KeyState_Process        0x080021c7   0x56  Code  Lc  key.o [1]
-NMI_Handler             0x08003db1    0x2  Code  Gb  stm32f0xx_it.o [1]
-NVIC_SetPriority        0x08001751   0x86  Code  Lc  main.o [1]
-PendSV_Handler          0x08003db9    0x2  Code  Gb  stm32f0xx_it.o [1]
-RCC_AHBPeriphClockCmd   0x08001ab5   0x20  Code  Gb  stm32f0xx_rcc.o [1]
-RCC_APB1PeriphResetCmd  0x08001b25   0x20  Code  Gb  stm32f0xx_rcc.o [1]
-RCC_APB2PeriphClockCmd  0x08001ad5   0x20  Code  Gb  stm32f0xx_rcc.o [1]
-RCC_APB2PeriphResetCmd  0x08001afd   0x20  Code  Gb  stm32f0xx_rcc.o [1]
-RCC_GetClocksFreq       0x080018b1  0x200  Code  Gb  stm32f0xx_rcc.o [1]
-Region$$Table$$Base     0x08003e14          --   Gb  - Linker created -
-Region$$Table$$Limit    0x08003e40          --   Gb  - Linker created -
-SVC_Handler             0x08003db7    0x2  Code  Gb  stm32f0xx_it.o [1]
-SetSysClock             0x08003823   0xbe  Code  Lc  system_stm32f0xx.o [1]
-Struct_TaksBaseTime     0x20000610    0x8  Data  Gb  stm32f0xx_it.o [1]
-SysTick_Config          0x080017d7   0x30  Code  Lc  main.o [1]
-SysTick_Handler         0x08003dbb   0x2a  Code  Gb  stm32f0xx_it.o [1]
-SystemCoreClock         0x200005d8    0x4  Data  Gb  system_stm32f0xx.o [1]
-SystemInit              0x080037b5   0x6e  Code  Gb  system_stm32f0xx.o [1]
-TIM_ARRPreloadConfig    0x08001de1   0x1c  Code  Gb  stm32f0xx_tim.o [1]
-TIM_Cmd                 0x08001dfd   0x1c  Code  Gb  stm32f0xx_tim.o [1]
-TIM_CtrlPWMOutputs      0x08001e31   0x26  Code  Gb  stm32f0xx_tim.o [1]
-TIM_DMACmd              0x08001f35   0x18  Code  Gb  stm32f0xx_tim.o [1]
-TIM_DeInit              0x08001c8d   0xf0  Code  Gb  stm32f0xx_tim.o [1]
-TIM_OC3Init             0x08001e69   0x88  Code  Gb  stm32f0xx_tim.o [1]
-TIM_OC3PreloadConfig    0x08001f05   0x12  Code  Gb  stm32f0xx_tim.o [1]
-TIM_TimeBaseInit        0x08001d7d   0x64  Code  Gb  stm32f0xx_tim.o [1]
-Task_Led                0x08002163   0x18  Code  Gb  led.o [1]
-WS2812_DMAInit          0x080016d1   0x68  Code  Gb  ws2812_drv.o [1]
-WS2812_GpioInit         0x080015f9   0x44  Code  Lc  ws2812_drv.o [1]
-WS2812_HardwareInit     0x08001745    0xc  Code  Gb  ws2812_drv.o [1]
-WS2812_TimeInit         0x0800163d   0x94  Code  Lc  ws2812_drv.o [1]
+GPIO_Init               0x0800066d   0xa0  Code  Gb  stm32f0xx_gpio.o [1]
+GPIO_PinAFConfig        0x08000717   0x62  Code  Gb  stm32f0xx_gpio.o [1]
+GPIO_ResetBits          0x08000713    0x4  Code  Gb  stm32f0xx_gpio.o [1]
+GPIO_SetBits            0x0800070d    0x6  Code  Gb  stm32f0xx_gpio.o [1]
+HardFault_Handler       0x080018e7    0x4  Code  Gb  stm32f0xx_it.o [1]
+HardwareInit_Led        0x080015eb    0x8  Code  Gb  led.o [1]
+HardwareInit_Usart      0x08000279   0x1c  Code  Gb  uart.o [1]
+IOT2Logo_Protocol       0x2000094c   0x14  Data  Gb  uart.o [1]
+IWDG_Config             0x0800126b   0x1e  Code  Lc  main.o [1]
+IWDG_Enable             0x08001631    0x8  Code  Gb  stm32f0xx_iwdg.o [1]
+IWDG_ReloadCounter      0x08001629    0x8  Code  Gb  stm32f0xx_iwdg.o [1]
+IWDG_SetPrescaler       0x08001619    0x8  Code  Gb  stm32f0xx_iwdg.o [1]
+IWDG_SetReload          0x08001621    0x8  Code  Gb  stm32f0xx_iwdg.o [1]
+IWDG_WriteAccessCmd     0x08001611    0x8  Code  Gb  stm32f0xx_iwdg.o [1]
+InStream_Read           0x080017b1   0x22  Code  Lc  packbits_init.o [5]
+Logo2IOT_Buff           0x200005d8    0xc  Data  Gb  uart.o [1]
+Logo_Param              0x200005e4    0xc  Data  Gb  uart.o [1]
+NMI_Handler             0x080018e5    0x2  Code  Gb  stm32f0xx_it.o [1]
+NVIC_Init               0x08000971   0x68  Code  Gb  stm32f0xx_misc.o [1]
+NVIC_SetPriority        0x08001155   0x86  Code  Lc  main.o [1]
+PendSV_Handler          0x080018ed    0x2  Code  Gb  stm32f0xx_it.o [1]
+ProtocolFrame_Process   0x080002b1   0x5c  Code  Gb  uart.o [1]
+RCC_AHBPeriphClockCmd   0x080005bd   0x20  Code  Gb  stm32f0xx_rcc.o [1]
+RCC_APB1PeriphResetCmd  0x0800062d   0x20  Code  Gb  stm32f0xx_rcc.o [1]
+RCC_APB2PeriphClockCmd  0x080005dd   0x20  Code  Gb  stm32f0xx_rcc.o [1]
+RCC_APB2PeriphResetCmd  0x08000605   0x20  Code  Gb  stm32f0xx_rcc.o [1]
+RCC_GetClocksFreq       0x080003b9  0x200  Code  Gb  stm32f0xx_rcc.o [1]
+Region$$Table$$Base     0x08001948          --   Gb  - Linker created -
+Region$$Table$$Limit    0x08001974          --   Gb  - Linker created -
+SVC_Handler             0x080018eb    0x2  Code  Gb  stm32f0xx_it.o [1]
+SetSysClock             0x080016bb   0xbe  Code  Lc  system_stm32f0xx.o [1]
+Struct_TaksBaseTime     0x20000960    0x8  Data  Gb  stm32f0xx_it.o [1]
+SysTick_Config          0x080011db   0x30  Code  Lc  main.o [1]
+SysTick_Handler         0x080018ef   0x2a  Code  Gb  stm32f0xx_it.o [1]
+SystemCoreClock         0x200005f0    0x4  Data  Gb  system_stm32f0xx.o [1]
+SystemInit              0x0800164d   0x6e  Code  Gb  system_stm32f0xx.o [1]
+TIM_ARRPreloadConfig    0x08001429   0x1c  Code  Gb  stm32f0xx_tim.o [1]
+TIM_CCR_OUT_BUF1        0x200005f4  0x2d4  Data  Gb  ws2812_app.o [1]
+TIM_Cmd                 0x08001445   0x1c  Code  Gb  stm32f0xx_tim.o [1]
+TIM_CtrlPWMOutputs      0x08001479   0x26  Code  Gb  stm32f0xx_tim.o [1]
+TIM_DMACmd              0x0800157d   0x18  Code  Gb  stm32f0xx_tim.o [1]
+TIM_DeInit              0x080012d5   0xf0  Code  Gb  stm32f0xx_tim.o [1]
+TIM_OC3Init             0x080014b1   0x88  Code  Gb  stm32f0xx_tim.o [1]
+TIM_OC3PreloadConfig    0x0800154d   0x12  Code  Gb  stm32f0xx_tim.o [1]
+TIM_TimeBaseInit        0x080013c5   0x64  Code  Gb  stm32f0xx_tim.o [1]
+Task_Led                0x080015f3   0x18  Code  Gb  led.o [1]
+Task_RGBTest            0x08000f33   0x48  Code  Gb  ws2812_app.o [1]
+USART1_DMAReceiveInit   0x08000201   0x58  Code  Lc  uart.o [1]
+USART1_DMATransInit     0x080001a9   0x58  Code  Lc  uart.o [1]
+USART1_IRQHandler       0x0800030d   0x6c  Code  Gb  uart.o [1]
+USART_ClearITPendingBit
+                        0x08000937   0x10  Code  Gb  stm32f0xx_usart.o [1]
+USART_Cmd               0x08000845   0x1c  Code  Gb  stm32f0xx_usart.o [1]
+USART_DMACmd            0x0800087d   0x18  Code  Gb  stm32f0xx_usart.o [1]
+USART_GetITStatus       0x080008d5   0x62  Code  Gb  stm32f0xx_usart.o [1]
+USART_ITConfig          0x08000895   0x40  Code  Gb  stm32f0xx_usart.o [1]
+USART_Init              0x08000779   0xcc  Code  Gb  stm32f0xx_usart.o [1]
+Usart1_Init             0x080000b5   0xd8  Code  Lc  uart.o [1]
+Usart_NVICInit          0x0800018d   0x1c  Code  Lc  uart.o [1]
+WS2812_DMAInit          0x08001079   0x68  Code  Gb  ws2812_drv.o [1]
+WS2812_GpioInit         0x08000fa1   0x44  Code  Lc  ws2812_drv.o [1]
+WS2812_HardwareInit     0x080010ed    0xc  Code  Gb  ws2812_drv.o [1]
+WS2812_TimeInit         0x08000fe5   0x94  Code  Lc  ws2812_drv.o [1]
 __ICFEDIT_region_RAM_end__ {Abs}
                         0x20001fff          --   Gb  command line/config [2]
 __ICFEDIT_region_RAM_start__ {Abs}
                         0x20000000          --   Gb  command line/config [2]
-__aeabi_cfcmpeq         0x0800120d         Code  Gb  FltCmpEq.o [4]
-__aeabi_d2f             0x08001597         Code  Gb  DblToFlt.o [4]
-__aeabi_dadd            0x080013e3         Code  Gb  DblAddSub.o [4]
-__aeabi_dmul            0x0800125f         Code  Gb  DblMul.o [4]
-__aeabi_dsub            0x080014a9         Code  Gb  DblAddSub.o [4]
-__aeabi_f2d             0x0800122d         Code  Gb  FltToDbl.o [4]
-__aeabi_f2iz            0x080011a9         Code  Gb  FltToS32.o [4]
-__aeabi_fadd            0x08000f2f         Code  Gb  FltAddSub.o [4]
-__aeabi_fdiv            0x080010ff         Code  Gb  FltDiv.o [4]
-__aeabi_fmul            0x0800104f         Code  Gb  FltMul.o [4]
-__aeabi_fsub            0x08000f9f         Code  Gb  FltAddSub.o [4]
-__aeabi_i2f             0x08000ef9         Code  Gb  I32ToFlt.o [4]
-__aeabi_idiv            0x08000e45         Code  Gb  I32DivModFast.o [5]
-__aeabi_idiv0           0x080018ad         Code  Gb  IntDivZer.o [5]
-__aeabi_idivmod         0x08000e45         Code  Gb  I32DivModFast.o [5]
-__aeabi_memcpy          0x08000dbd         Code  Gb  ABImemcpy.o [5]
-__aeabi_memcpy4         0x08000de5         Code  Wk  ABImemcpy.o [5]
-__aeabi_ui2f            0x08000f11         Code  Gb  I32ToFlt.o [4]
-__aeabi_uidiv           0x08000e4b         Code  Gb  I32DivModFast.o [5]
-__aeabi_uidivmod        0x08000e4b         Code  Gb  I32DivModFast.o [5]
-__cmain                 0x08003e41         Code  Gb  cmain.o [5]
-__exit                  0x08003d61   0x14  Code  Gb  exit.o [6]
-__iar_data_init3        0x08003ded   0x28  Code  Gb  data_init.o [5]
-__iar_packbits_init3    0x08003c9f   0xb6  Code  Gb  packbits_init.o [5]
-__iar_program_start     0x08003e73         Code  Gb  cstartup_M.o [5]
-__iar_ui2f              0x08000f15         Code  Gb  I32ToFlt.o [4]
-__iar_zero_init3        0x080011e3   0x2a  Code  Gb  zero_init3.o [5]
-__low_level_init        0x08003e5b    0x4  Code  Gb  low_level_init.o [3]
+__aeabi_idiv0           0x08000ca1         Code  Gb  IntDivZer.o [5]
+__aeabi_memcpy          0x080010f9         Code  Gb  ABImemcpy.o [5]
+__aeabi_memset          0x08000b9d         Code  Gb  ABImemset.o [5]
+__aeabi_uidiv           0x08000bf1         Code  Gb  I32DivModFast.o [5]
+__aeabi_uidivmod        0x08000bf1         Code  Gb  I32DivModFast.o [5]
+__cmain                 0x08001975         Code  Gb  cmain.o [5]
+__exit                  0x08001895   0x14  Code  Gb  exit.o [6]
+__iar_Memset4_word      0x08000bbd         Code  Gb  ABImemset.o [5]
+__iar_Memset_word       0x08000ba9         Code  Gb  ABImemset.o [5]
+__iar_data_init3        0x08001921   0x28  Code  Gb  data_init.o [5]
+__iar_packbits_init3    0x080017d3   0xb6  Code  Gb  packbits_init.o [5]
+__iar_program_start     0x080019a7         Code  Gb  cstartup_M.o [5]
+__iar_zero_init3        0x08000947   0x2a  Code  Gb  zero_init3.o [5]
+__low_level_init        0x0800198f    0x4  Code  Gb  low_level_init.o [3]
 __vector_table          0x08000000         Data  Gb  startup_stm32f030.o [1]
-_call_main              0x08003e4d         Code  Gb  cmain.o [5]
-_exit                   0x08003e69         Code  Gb  cexit.o [5]
-_main                   0x08003e57         Code  Gb  cmain.o [5]
-abort                   0x08003d55    0xa  Code  Gb  abort.o [3]
-bsp_ws2812_init         0x08000d9f   0x12  Code  Gb  ws2812_app.o [1]
-exit                    0x08003e5f    0x8  Code  Gb  exit.o [3]
-key_struct              0x20000604    0xc  Data  Gb  key.o [1]
-lEDGpio_Init            0x08002105   0x36  Code  Lc  led.o [1]
-led_ctr                 0x0800213b   0x20  Code  Lc  led.o [1]
-main                    0x08001807   0x1e  Code  Gb  main.o [1]
-one_clolor_bug          0x08003648  0x16c  Data  Gb  ws2812_app.o [1]
-one_clolor_duidie       0x08002730  0x444  Data  Gb  ws2812_app.o [1]
-one_clolor_flow_brightness
-                        0x08002ebc  0x32c  Data  Gb  ws2812_app.o [1]
-one_clolor_meteor       0x080022d0  0x460  Data  Gb  ws2812_app.o [1]
-one_clolor_water_flow   0x08003918  0x134  Data  Gb  ws2812_app.o [1]
-red_clolor              0x08003b64  0x118  Data  Gb  ws2812_app.o [1]
-rgb_controller_init     0x08000a5f   0x64  Code  Lc  ws2812_app.o [1]
-rgb_ctr_init            0x08000d95    0xa  Code  Lc  ws2812_app.o [1]
-rgb_interpolation       0x080008a9   0x54  Code  Lc  ws2812_app.o [1]
-rgb_pattern_accel       0x080005f1   0xca  Code  Lc  ws2812_app.o [1]
-rgb_pattern_accel_decel
-                        0x080007b1   0x7c  Code  Lc  ws2812_app.o [1]
-rgb_pattern_decel       0x080006c9   0xd2  Code  Lc  ws2812_app.o [1]
-rgb_pattern_decel_accel
-                        0x0800082d   0x7c  Code  Lc  ws2812_app.o [1]
-rgb_pattern_linear      0x080005ad   0x44  Code  Lc  ws2812_app.o [1]
-rgb_update_stl_info     0x080000b5  0x4e2  Code  Lc  ws2812_app.o [1]
-stl_eight_color_flow    0x08003a4c  0x118  Data  Gb  ws2812_app.o [1]
-stl_full_color_breath   0x08002b74  0x348  Data  Gb  ws2812_app.o [1]
-stl_one_color_breath    0x080031e8  0x230  Data  Gb  ws2812_app.o [1]
-stl_two_color_breath    0x08003418  0x230  Data  Gb  ws2812_app.o [1]
-sys_TimeGet             0x0800187f    0x6  Code  Gb  main.o [1]
-sys_freq                0x200005dc   0x28  Data  Gb  main.o [1]
-systick_cnt             0x20000618    0x4  Data  Gb  main.o [1]
-systick_init            0x08001865   0x1a  Code  Gb  main.o [1]
-task_Key                0x080022ad   0x10  Code  Gb  key.o [1]
-task_SystemFunction     0x08001825   0x40  Code  Gb  main.o [1]
-task_rgb_ch             0x08000ac3  0x2d2  Code  Gb  ws2812_app.o [1]
-ws2812_Refresh          0x080008fd   0xcc  Code  Lc  ws2812_app.o [1]
-ws_Clear                0x080009f3   0x28  Code  Lc  ws2812_app.o [1]
-ws_Clear2               0x08000a1b   0x28  Code  Lc  ws2812_app.o [1]
-ws_Init                 0x08000a4d   0x12  Code  Lc  ws2812_app.o [1]
-ws_Set                  0x080009c9   0x16  Code  Lc  ws2812_app.o [1]
-ws_Set2                 0x080009df   0x14  Code  Lc  ws2812_app.o [1]
+_call_main              0x08001981         Code  Gb  cmain.o [5]
+_exit                   0x0800199d         Code  Gb  cexit.o [5]
+_main                   0x0800198b         Code  Gb  cmain.o [5]
+abort                   0x08001889    0xa  Code  Gb  abort.o [3]
+bsp_ws2812_init         0x08000f7b   0x12  Code  Gb  ws2812_app.o [1]
+exit                    0x08001993    0x8  Code  Gb  exit.o [3]
+lEDGpio_Init            0x08001595   0x36  Code  Lc  led.o [1]
+led_ctr                 0x080015cb   0x20  Code  Lc  led.o [1]
+main                    0x0800120b   0x22  Code  Gb  main.o [1]
+rgb_controller_init     0x08000e07   0x64  Code  Lc  ws2812_app.o [1]
+rgb_ctr_init            0x08000e6b    0xa  Code  Lc  ws2812_app.o [1]
+sys_TimeGet             0x080012a3    0x6  Code  Gb  main.o [1]
+sys_freq                0x20000924   0x28  Data  Gb  main.o [1]
+systick_cnt             0x20000968    0x4  Data  Gb  main.o [1]
+systick_init            0x08001289   0x1a  Code  Gb  main.o [1]
+task_SystemFunction     0x0800122d   0x3e  Code  Gb  main.o [1]
+ws2812_Refresh          0x08000ca5   0xcc  Code  Lc  ws2812_app.o [1]
+ws_Clear                0x08000d9b   0x28  Code  Lc  ws2812_app.o [1]
+ws_Clear2               0x08000dc3   0x28  Code  Lc  ws2812_app.o [1]
+ws_Init                 0x08000df5   0x12  Code  Lc  ws2812_app.o [1]
+ws_Refresh              0x08000e7d   0xb6  Code  Lc  ws2812_app.o [1]
+ws_Set                  0x08000d71   0x16  Code  Lc  ws2812_app.o [1]
+ws_Set2                 0x08000d87   0x14  Code  Lc  ws2812_app.o [1]
 
 
-[1] = E:\stm32f030f4p6开发\code\STM32F0xx_StdPeriph_Lib_V1.6.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030\Obj
+[1] = E:\stm32f030f4p6\Git\stm32f030f4p6\Projects\STM32F0xx_StdPeriph_Templates\EWARM\STM32F030\Obj
 [2] = command line
 [3] = dl6M_tln.a
 [4] = m6M_tl.a
 [5] = rt6M_tl.a
 [6] = shb_l.a
 
-  9 778 bytes of readonly  code memory
-  6 341 bytes of readonly  data memory
-  3 105 bytes of readwrite data memory
+  6 572 bytes of readonly  code memory
+    148 bytes of readonly  data memory
+  3 949 bytes of readwrite data memory
 
 Errors: none
 Warnings: none

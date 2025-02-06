@@ -1,16 +1,16 @@
-"E:\stm32f030f4p6开发\code\STM32F0xx_StdPeriph_Lib_V1.6.0\Projects\source\src\ws2812_app.c"
+"E:\stm32f030f4p6\Git\stm32f030f4p6\Projects\source\src\ws2812_app.c"
 -std=c99
 -ferror-limit=100
 -I
-E:\stm32f030f4p6开发\code\STM32F0xx_StdPeriph_Lib_V1.6.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\..
+E:\stm32f030f4p6\Git\stm32f030f4p6\Projects\STM32F0xx_StdPeriph_Templates\EWARM\..
 -I
-E:\stm32f030f4p6开发\code\STM32F0xx_StdPeriph_Lib_V1.6.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\..\..\..\Libraries\CMSIS\Device\ST\STM32F0xx\Include
+E:\stm32f030f4p6\Git\stm32f030f4p6\Projects\STM32F0xx_StdPeriph_Templates\EWARM\..\..\..\Libraries\CMSIS\Device\ST\STM32F0xx\Include
 -I
-E:\stm32f030f4p6开发\code\STM32F0xx_StdPeriph_Lib_V1.6.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\..\..\..\Libraries\STM32F0xx_StdPeriph_Driver\inc
+E:\stm32f030f4p6\Git\stm32f030f4p6\Projects\STM32F0xx_StdPeriph_Templates\EWARM\..\..\..\Libraries\STM32F0xx_StdPeriph_Driver\inc
 -I
-E:\stm32f030f4p6开发\code\STM32F0xx_StdPeriph_Lib_V1.6.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\..\..\..\Libraries\STM32F0xx_CPAL_Driver\inc
+E:\stm32f030f4p6\Git\stm32f030f4p6\Projects\STM32F0xx_StdPeriph_Templates\EWARM\..\..\..\Libraries\STM32F0xx_CPAL_Driver\inc
 -I
-E:\stm32f030f4p6开发\code\STM32F0xx_StdPeriph_Lib_V1.6.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\..\..\source\inc
+E:\stm32f030f4p6\Git\stm32f030f4p6\Projects\STM32F0xx_StdPeriph_Templates\EWARM\..\..\source\inc
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\arm\CMSIS\Include
 -I
@@ -18,15 +18,15 @@ C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\arm\inc
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\arm\inc\c
 -I
-E:\stm32f030f4p6开发\code\STM32F0xx_StdPeriph_Lib_V1.6.0\Projects\STM32F0xx_StdPeriph_Templates
+E:\stm32f030f4p6\Git\stm32f030f4p6\Projects\STM32F0xx_StdPeriph_Templates
 -I
-E:\stm32f030f4p6开发\code\STM32F0xx_StdPeriph_Lib_V1.6.0\Libraries\CMSIS\Device\ST\STM32F0xx\Include
+E:\stm32f030f4p6\Git\stm32f030f4p6\Libraries\CMSIS\Device\ST\STM32F0xx\Include
 -I
-E:\stm32f030f4p6开发\code\STM32F0xx_StdPeriph_Lib_V1.6.0\Libraries\STM32F0xx_StdPeriph_Driver\inc
+E:\stm32f030f4p6\Git\stm32f030f4p6\Libraries\STM32F0xx_StdPeriph_Driver\inc
 -I
-E:\stm32f030f4p6开发\code\STM32F0xx_StdPeriph_Lib_V1.6.0\Libraries\STM32F0xx_CPAL_Driver\inc
+E:\stm32f030f4p6\Git\stm32f030f4p6\Libraries\STM32F0xx_CPAL_Driver\inc
 -I
-E:\stm32f030f4p6开发\code\STM32F0xx_StdPeriph_Lib_V1.6.0\Projects\source\inc
+E:\stm32f030f4p6\Git\stm32f030f4p6\Projects\source\inc
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\arm\CMSIS\Include
 -DUSE_STDPERIPH_DRIVER=1

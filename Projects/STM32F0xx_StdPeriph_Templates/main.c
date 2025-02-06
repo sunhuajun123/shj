@@ -22,12 +22,15 @@
 #include "main.h"
 #include "led.h"
 #include "key.h"
+#include "uart.h"
 #include "ws2812_app.h"
 #include "stm32f0xx_it.h"
+#include "stm32f0xx_iwdg.h"
     
 uint32_t systick_cnt=0;
 RCC_ClocksTypeDef sys_freq;
 void systick_init(void);
+static void IWDG_Config(void);
 /**
   * @brief  Main program.
   * @param  None
@@ -38,8 +41,9 @@ void systick_init(void);
     RCC_GetClocksFreq(&sys_freq);
     systick_init();
     HardwareInit_Led();
-    HardwareInit_Key();
     bsp_ws2812_init();
+    HardwareInit_Usart();
+    IWDG_Config();
     while (1)
     {
        task_SystemFunction();
@@ -65,8 +69,8 @@ void task_SystemFunction(void)
     if (Struct_TaksBaseTime.basetime_1ms >= 1)
     {
         Struct_TaksBaseTime.basetime_1ms = 0;
-        task_Key();
-        task_rgb_ch(&Front_RGB);
+        Task_RGBTest();
+        IWDG_ReloadCounter();
     }
     if (Struct_TaksBaseTime.basetime_5ms >= 5)
     {
@@ -79,6 +83,16 @@ void task_SystemFunction(void)
     }
 }
 
+static void IWDG_Config(void)
+{
+    IWDG_WriteAccessCmd(IWDG_WriteAccess_Enable);
+    IWDG_SetPrescaler(IWDG_Prescaler_32);
+    IWDG_SetReload(40000/32);//看门狗周期1s
+    IWDG_ReloadCounter();
+    IWDG_Enable();
+}
+      
+      
 void systick_init(void)
 {
     if (SysTick_Config(SystemCoreClock / 1000))

@@ -25,7 +25,7 @@ if not "%1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\common\bin\cspybat" -f "E:\stm32f030f4p6开发\code\STM32F0xx_StdPeriph_Lib_V1.6.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\settings\Project.STM32F030.general.xcl" --backend -f "E:\stm32f030f4p6开发\code\STM32F0xx_StdPeriph_Lib_V1.6.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\settings\Project.STM32F030.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\common\bin\cspybat" -f "E:\stm32f030f4p6\Git\stm32f030f4p6\Projects\STM32F0xx_StdPeriph_Templates\EWARM\settings\Project.STM32F030.general.xcl" --backend -f "E:\stm32f030f4p6\Git\stm32f030f4p6\Projects\STM32F0xx_StdPeriph_Templates\EWARM\settings\Project.STM32F030.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\common\bin\cspybat" -f "E:\stm32f030f4p6开发\code\STM32F0xx_StdPeriph_Lib_V1.6.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\settings\Project.STM32F030.general.xcl" "--debug_file=%1" --backend -f "E:\stm32f030f4p6开发\code\STM32F0xx_StdPeriph_Lib_V1.6.0\Projects\STM32F0xx_StdPeriph_Templates\EWARM\settings\Project.STM32F030.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\common\bin\cspybat" -f "E:\stm32f030f4p6\Git\stm32f030f4p6\Projects\STM32F0xx_StdPeriph_Templates\EWARM\settings\Project.STM32F030.general.xcl" "--debug_file=%1" --backend -f "E:\stm32f030f4p6\Git\stm32f030f4p6\Projects\STM32F0xx_StdPeriph_Templates\EWARM\settings\Project.STM32F030.driver.xcl" 
 
 @echo off 
 :end

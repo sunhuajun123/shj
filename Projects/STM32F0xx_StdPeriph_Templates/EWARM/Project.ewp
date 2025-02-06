@@ -8541,6 +8541,9 @@
       <name>$PROJ_DIR$\..\..\source\src\led.c</name>
     </file>
     <file>
+      <name>$PROJ_DIR$\..\..\source\src\uart.c</name>
+    </file>
+    <file>
       <name>$PROJ_DIR$\..\..\source\src\ws2812_app.c</name>
     </file>
     <file>

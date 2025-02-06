@@ -1,5 +1,6 @@
 #include "ws2812_app.h"
 #include "stl.h"
+#include "uart.h"
 
 uint8_t TIM_CCR_OUT_BUF1[RGB_LED_NUM * 24 +1];
 
@@ -724,7 +725,7 @@ static void rgb_ctr_init(void)
     rgb_controller_init(&Front_RGB);
 }
 
-#if 0
+#if 1
 /***********************************************************
 * name :ws_Refresh
 *
@@ -782,6 +783,18 @@ static void ws_Refresh(void)
   WS2812_DMAInit(TIM_CCR_OUT_BUF1,sizeof(TIM_CCR_OUT_BUF1));
 }
 #endif
+void Task_RGBTest(void)
+{
+    uint8_t i=0;
+    for (i = 0;i < Logo_Param.rgb_num;i++)
+    {
+        Disp_RGB_Tab1[i].r = Logo_Param.r_val;
+        Disp_RGB_Tab1[i].g = Logo_Param.g_val;
+        Disp_RGB_Tab1[i].b = Logo_Param.b_val;
+    }
+    ws_Refresh();
+}
+
 void bsp_ws2812_init(void)
 {
     WS2812_HardwareInit();
